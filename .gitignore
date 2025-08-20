@@ -1,0 +1,7 @@
+*.pyc
+.ipynb_checkpoints
+wandb
+results*
+Pattern_Generator_Secret.py
+temp.py
+Datasets*
