@@ -50,8 +50,8 @@ Train:
     Train_Pattern:
         Path: './Datasets/pattern/train'
         Metadata_File: 'METADATA.PICKLE'
-        Accumulated_Dataset_Epoch: 500    # This is to prevent slow down from torch.utils.data.DataLoader when the number of patterns is small.
-        Augmentation_Ratio: 0.0
+        Accumulated_Dataset_Epoch: 250    # This is to prevent slow down from torch.utils.data.DataLoader when the number of patterns is small.
+        Augmentation_Ratio: 2.0
     Eval_Pattern:
         Path: './Datasets/pattern/eval'
         Metadata_File: 'METADATA.PICKLE'
@@ -99,14 +99,14 @@ Train:
             [66,68,69,0,61,64,62,61,62,0,61,59,59,61,64,0,69,68,69,0,61,0,64,0,64,62,62,0,61,61,59,]
             ]
         Singer: [
-            'AMS04',
-            'AMS04',
-            'AMS04',
+            'AMS02',
+            'AMS02',
+            'AMS02',
             ]
         Genre: [
-            'Trot',
-            'Trot',
-            'Trot',
+            'Rock',
+            'Rock',
+            'Rock',
             ]
 
 Inference_Batch_Size: 8

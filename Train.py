@@ -711,7 +711,7 @@ if __name__ == '__main__':
         message = 'Error occured on Train.py!!!'
         os.system(f"python3 send_notification.py '{message}'")
         # new_Trainer.Save_Checkpoint()
-        remove_last_checkpoint()
+        # remove_last_checkpoint()
         # 프로그램 재실행
         python = sys.executable
         os.execv(python, [python] + sys.argv)
