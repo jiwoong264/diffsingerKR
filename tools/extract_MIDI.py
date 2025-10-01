@@ -106,11 +106,11 @@ def extract_midi_data(midi_file_path):
 
 notes, durations, lyrics = extract_midi_data('/home/woong/song/diffsingerKR/Datasets_s02ro/data/eval/ro_00973_+0_a_s02_m_02.mid')
 
-# print(f"\n=== 최종 결과 ===")
-# print(f"notes: {notes}")
-# print(f"durations: {durations}")
-# print(f"lyrics: {lyrics}")
+print(f"\n=== 최종 결과 ===")
+print(f"notes: {notes}")
+print(f"durations: {durations}")
+print(f"lyrics: {lyrics}")
 
-for n, d, l in zip(notes, durations, lyrics):
-    print(f"n: {n}, d: {d}, l: '{l}'")
+# for n, d, l in zip(notes, durations, lyrics):
+#     print(f"n: {n}, d: {d}, l: '{l}'")
 

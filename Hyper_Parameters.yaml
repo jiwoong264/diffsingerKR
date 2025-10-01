@@ -38,13 +38,13 @@ Diffusion:
     Kernel_Size: 5
     Stack: 20
 
-Token_Path: './YAML/Token.yaml'
-Spectrogram_Range_Info_Path: './YAML/Spectrogram_Range_Info.yaml'
-Mel_Range_Info_Path: './YAML/Mel_Range_Info.yaml'
-Log_F0_Info_Path: './YAML/Log_F0_Info.yaml'
-Log_Energy_Info_Path: './YAML/Log_Energy_Info.yaml'
-Singer_Info_Path: './YAML/Singer_Info.yaml'
-Genre_Info_Path: './YAML/Genre_Info.yaml'
+Token_Path: './Datasets/YAML/Token.yaml'
+Spectrogram_Range_Info_Path: './Datasets/YAML/Spectrogram_Range_Info.yaml'
+Mel_Range_Info_Path: './Datasets/YAML/Mel_Range_Info.yaml'
+Log_F0_Info_Path: './Datasets/YAML/Log_F0_Info.yaml'
+Log_Energy_Info_Path: './Datasets/YAML/Log_Energy_Info.yaml'
+Singer_Info_Path: './Datasets/YAML/Singer_Info.yaml'
+Genre_Info_Path: './Datasets/YAML/Genre_Info.yaml'
 
 Train:
     Train_Pattern:
