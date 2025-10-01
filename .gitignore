@@ -4,5 +4,5 @@ wandb
 results*
 Pattern_Generator_Secret.py
 temp.py
-Datasets*
+Datasets*/*
 YAML*
